@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/tiancanfei/ADDeviceTool.git", :tag => "#{s.version}" }
 
   #源文件位置
-  s.source_files  = "ADDeviceTool/ADDeviceTool/*.swift"
+  s.source_files  = "ADDeviceTool/*.swift"
 
 end
