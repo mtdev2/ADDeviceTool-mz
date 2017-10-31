@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct ADDeviceTool {
+public struct ADDeviceTool {
     //MARK: -  获取设备类型
     //deviceType设备类型获取地址https://www.theiphonewiki.com/wiki/Models
     

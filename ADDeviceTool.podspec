@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADDeviceTool"
-  s.version      = "1.0.3"
+  s.version      = "1.0.5"
   s.summary      = "快速获取Apple设备类型"
   s.homepage     = "https://github.com/tiancanfei/ADDeviceTool"
   s.license      = "MIT"
