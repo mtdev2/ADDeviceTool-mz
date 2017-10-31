@@ -14,6 +14,7 @@
 		AC78A32D1FA8640900F4DD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC78A32B1FA8640900F4DD70 /* LaunchScreen.storyboard */; };
 		AC78A3381FA8640900F4DD70 /* ADDeviceToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78A3371FA8640900F4DD70 /* ADDeviceToolTests.swift */; };
 		AC78A3431FA8640900F4DD70 /* ADDeviceToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78A3421FA8640900F4DD70 /* ADDeviceToolUITests.swift */; };
+		AC78A3551FA8687000F4DD70 /* ADDeviceTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78A3541FA8687000F4DD70 /* ADDeviceTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC78A33E1FA8640900F4DD70 /* ADDeviceToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADDeviceToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC78A3421FA8640900F4DD70 /* ADDeviceToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADDeviceToolUITests.swift; sourceTree = "<group>"; };
 		AC78A3441FA8640900F4DD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC78A3541FA8687000F4DD70 /* ADDeviceTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDeviceTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AC78A3211FA8640900F4DD70 /* ADDeviceTool */ = {
 			isa = PBXGroup;
 			children = (
+				AC78A3501FA867CD00F4DD70 /* ADDeviceTool */,
 				AC78A3221FA8640900F4DD70 /* AppDelegate.swift */,
 				AC78A3241FA8640900F4DD70 /* ViewController.swift */,
 				AC78A3261FA8640900F4DD70 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				AC78A3441FA8640900F4DD70 /* Info.plist */,
 			);
 			path = ADDeviceToolUITests;
+			sourceTree = "<group>";
+		};
+		AC78A3501FA867CD00F4DD70 /* ADDeviceTool */ = {
+			isa = PBXGroup;
+			children = (
+				AC78A3541FA8687000F4DD70 /* ADDeviceTool.swift */,
+			);
+			path = ADDeviceTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				AC78A3251FA8640900F4DD70 /* ViewController.swift in Sources */,
 				AC78A3231FA8640900F4DD70 /* AppDelegate.swift in Sources */,
+				AC78A3551FA8687000F4DD70 /* ADDeviceTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
